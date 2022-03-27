@@ -20,9 +20,15 @@
 - [flake8](http://flake8.pycqa.org/en/latest/)
 - [pytest](https://docs.pytest.org/en/7.0.x/)
 
-## Installation
+## Quick start
 
-TBD
+```
+git clone git@github.com:vyahello/web-translator.git
+cd web-translator
+pip install -r requirements.txt
+cd translator
+python manage.py runserver
+```
 
 ## Development notes
 
