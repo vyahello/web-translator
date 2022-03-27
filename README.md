@@ -26,6 +26,16 @@ TBD
 
 ## Development notes
 
+### Startup 
+
+```bash
+django-admin startproject translator
+cd translator
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+```
+
 ### Meta
 
 Author – _Vladimir Yahello_.
