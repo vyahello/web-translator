@@ -37,6 +37,7 @@ python manage.py runserver
 ```bash
 django-admin startproject translator
 cd translator
+python manage.py makemigrations blog
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
